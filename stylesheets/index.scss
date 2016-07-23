@@ -1,0 +1,60 @@
+$react-blue : #56D5FA;
+$black : #282828;
+@import 'components/number.scss';
+@import 'components/slider.scss';
+@import 'components/screen.scss';
+@import 'components/footer.scss';
+
+
+body {
+  padding: 0 0 10px 0;
+  margin: 0;
+  background-color: #F4F3F4;
+  font-family: helvetica;
+}
+main {
+  padding: 25px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+label {
+  text-transform: uppercase;
+  font-size: 12px;
+  display: block;
+  margin: 15px 0 5px 0;
+  &.label__box {
+    text-align: center;
+    background-color: $react-blue;
+    width: 105px;
+    height: 25px;
+    line-height: 13px;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 18px;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    color: darken($react-blue, 45%);
+    text-transform: none;
+    color: white;
+  }
+  &.label__unit {
+    display: inline-block;
+    background-color: $react-blue;
+    height: 35px;
+    width: 12%;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    border: 1px solid $react-blue;
+    font-family: 'helvetica';
+    text-align:center;
+  }
+}
