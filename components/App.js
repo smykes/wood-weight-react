@@ -34,7 +34,7 @@ class App extends React.Component {
         </header>
         <main>
           <label>Specific Gravity</label>
-          <Slider ref="sc" max="2" step="1" update={this.update} />
+          <Slider ref="sc" max="2" step="0.1" update={this.update} />
           <label className="label__box">{this.state.sc} <em>SG</em></label>
           <label>Moisture Content</label>
           <Slider max="100" ref="mc" step="0.5" update={this.update}/>

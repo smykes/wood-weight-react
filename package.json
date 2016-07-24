@@ -1,6 +1,6 @@
 {
-  "name": "Wood Weight Calculator",
-  "version": "0.1",
+  "name": "WoodWeightCalculator",
+  "version": "0.1.0",
   "description": "This just finds the estimated weight of a finished wood-working project using specific gravity, moisture content, finished width, finished thickness, and lineal feet.",
   "main": "index.js",
   "scripts": {
