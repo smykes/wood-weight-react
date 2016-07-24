@@ -1,7 +1,7 @@
 {
-  "name": "MMMReact2",
-  "version": "1.0.0",
-  "description": "",
+  "name": "Wood Weight Calculator",
+  "version": "0.1",
+  "description": "This just finds the estimated weight of a finished wood-working project using specific gravity, moisture content, finished width, finished thickness, and lineal feet.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
